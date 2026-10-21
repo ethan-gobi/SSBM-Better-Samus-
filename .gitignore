@@ -1,0 +1,7 @@
+*.iso
+*.nkit.iso
+*.rvz
+*.gcm
+*.dol
+*.dat
+__pycache__/
