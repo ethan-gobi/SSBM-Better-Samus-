@@ -14,7 +14,9 @@ your own disc. It writes only the mod's changes (about 2.4 KB) and checks every 
 ## What's changed
 
 ### Zair (grab aerial)
-- About 18 frames total (vanilla: 60). The hitbox comes out around frame 2.
+- About 25 frames total (vanilla: 60). The hitbox comes out around frame 2 and stays out
+  the whole time the beam is extending, so it hits wherever you see the beam.
+- Same beam length as vanilla Melee.
 - Samus keeps falling, drifting and can fast-fall during it. The beam moves with her.
 - No free fall afterwards.
 - Landing:
@@ -104,6 +106,23 @@ Your original ISO is never modified. To uninstall, delete the new ISO.
 | `already has the Samus mod installed` | That ISO is already patched; just play it. |
 | `looks like a compressed/NKit image` | Convert to plain ISO in Dolphin (see above). |
 | `python` not found | Reinstall Python with "Add to PATH", or use `py` instead of `python` on Windows. |
+
+---
+
+### Updating to a new version
+The installer only patches **clean** ISOs, so don't run it on an already-modded ISO.
+1. Download the latest version of this repo (or `git pull`).
+2. Delete your old modded ISO.
+3. Run the installer again on your **original, clean** Melee 1.02 ISO, exactly as in the steps above.
+
+---
+
+## Changelog
+- **v1.1**:
+  - Zair hitbox now matches what you see on screen: it stays out the whole time the beam extends.
+  - Zair beam is back to vanilla length; it was about a third longer and too strong.
+  - Zair is now about 25 frames total.
+- **v1.0**: initial release.
 
 ---
 
