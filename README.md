@@ -1,5 +1,7 @@
 # Samus Ultimate Mod for Super Smash Bros. Melee
 
+**Repository:** <https://github.com/ethan-gobi/SSBM-Better-Samus->
+
 A Samus moveset mod for **Super Smash Bros. Melee (NTSC 1.02)** that brings parts of her
 *Smash Ultimate* kit into Melee: a fast, comboable zair, mid-air Charge Shot, multi-hits that
 actually link, and quicker grabs. All other characters are left untouched.
@@ -66,8 +68,8 @@ percent, including fast-fallers. Each move ends with a final hit that launches.
 3. **Dolphin** (or Slippi Dolphin) to play: <https://dolphin-emu.org/download/>
 
 ### Steps
-1. Download this mod: the green **Code** button → **Download ZIP**, then extract it.
-   Or clone it: `git clone <this repo's URL>`.
+1. Download this mod from <https://github.com/ethan-gobi/SSBM-Better-Samus->: the green **Code** button → **Download ZIP**, then extract it.
+   Or clone it: `git clone https://github.com/ethan-gobi/SSBM-Better-Samus-.git`.
 2. Open a terminal in the extracted folder:
    - **Windows:** open the folder in File Explorer, click the address bar, type `cmd`, press Enter.
    - **macOS / Linux:** open Terminal and `cd` into the folder.
