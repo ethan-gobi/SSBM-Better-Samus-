@@ -15,7 +15,8 @@ your own disc. It writes only the mod's changes (about 2.4 KB) and checks every 
 
 ### Zair (grab aerial)
 - About 20 frames total (vanilla: 60). The hitbox comes out around frame 2.
-- The tip hitbox is attached to the beam tip you actually see on screen, every frame.
+- The hitbox uses the same timing as vanilla zair's beam. It does not follow the drawn beam tip
+  exactly; this is a known limitation (see the changelog).
 - Same beam length as vanilla Melee.
 - Samus keeps falling, drifting and can fast-fall during it. The beam moves with her.
 - No free fall afterwards.
@@ -118,7 +119,13 @@ The installer only patches **clean** ISOs, so don't run it on an already-modded 
 ---
 
 ## Changelog
-- **v1.2**:
+- **v1.3**:
+  - Reverted the v1.2 tip-follow routine. It copied the wrong data (a beam list pointer, not a
+    bone), so the zair hitbox didn't line up with the beam at all.
+  - Zair keeps the faster ~20-frame timing from v1.2.
+  - Known limitation: the zair hitbox does not yet track the drawn beam tip; it hits from
+    the fighter's bones.
+- **v1.2** (superseded by v1.3):
   - The zair tip hitbox now rides the drawn beam tip. Before, it was attached to a fixed point on
     Samus's body that didn't line up with the beam.
   - Zair is about 20 frames total (was about 25).
